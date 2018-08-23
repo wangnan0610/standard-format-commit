@@ -1,6 +1,6 @@
 {
   "name": "standard-format-commit",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "规范commit格式",
   "main": "index.js",
   "scripts": {
