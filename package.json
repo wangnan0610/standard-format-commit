@@ -1,6 +1,6 @@
 {
   "name": "standard-format-commit",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "规范commit格式",
   "main": "index.js",
   "scripts": {
@@ -8,8 +8,8 @@
     "release": "standard-version"
   },
   "bin": {
-    "sfc-init": "./bin/init.js",
-    "sfc-commit": "./bin/cli.js"
+    "sfc-init": "./bin/init",
+    "sfc-commit": "./bin/cli"
   },
   "repository": {
     "type": "git",
