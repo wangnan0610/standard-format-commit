@@ -1,0 +1,39 @@
+{
+  "name": "standard-format-commit",
+  "version": "1.0.3",
+  "description": "规范commit格式",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "standard-version"
+  },
+  "bin": {
+    "sfc-init": "./bin/init.js",
+    "sfc-commit": "./bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangnan0610/standard-format-commit.git"
+  },
+  "keywords": [
+    "standart",
+    "format",
+    "commit",
+    "git"
+  ],
+  "author": "wangnan0610",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wangnan0610/standard-format-commit/issues"
+  },
+  "homepage": "https://github.com/wangnan0610/standard-format-commit#readme",
+  "dependencies": {
+    "@commitlint/cli": "^7.0.0",
+    "commitizen": "^2.10.1",
+    "cz-customizable": "^5.2.0",
+    "fs-extra": "^7.0.0",
+    "husky": "^1.0.0-rc.13",
+    "node-emoji": "^1.8.1",
+    "standard-version": "^4.4.0"
+  }
+}
