@@ -1,6 +1,6 @@
 {
   "name": "standard-format-commit",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "规范commit格式",
   "main": "index.js",
   "scripts": {
@@ -29,6 +29,7 @@
   "homepage": "https://github.com/wangnan0610/standard-format-commit#readme",
   "dependencies": {
     "@commitlint/cli": "^7.0.0",
+    "chalk": "^2.4.1",
     "commitizen": "^2.10.1",
     "cz-customizable": "^5.2.0",
     "fs-extra": "^7.0.0",
