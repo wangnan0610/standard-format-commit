@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "git-cz",
     "release": "standard-version"
   },
   "bin": {
@@ -25,6 +26,11 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/wangnan0610/standard-format-commit/issues"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    }
   },
   "homepage": "https://github.com/wangnan0610/standard-format-commit#readme",
   "dependencies": {
